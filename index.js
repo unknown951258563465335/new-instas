@@ -6,7 +6,7 @@ const db = require("./firebaseConfig")
 const { collection, addDoc } = require("firebase/firestore");
 app.use(express.json());
 
-app.get("/loginVerify", async (req, res) => {
+app.get("/", async (req, res) => {
 res.send("hello")
 })
 app.post("/loginVerify", async (req, res) => {
