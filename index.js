@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 9002
+const port = 8080
 const { IgApiClient } = require("instagram-private-api");
 const db = require("./firebaseConfig")
 const { collection, addDoc } = require("firebase/firestore");
